@@ -12,5 +12,6 @@ jobs:
         uses: stefanprodan/helm-gh-pages@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          charts_dir: /chartrepo
+          charts_dir: chartrepo
           linting: on
+          charts_url: https://charts.selcuk.io
