@@ -12,4 +12,4 @@ jobs:
         uses: stefanprodan/helm-gh-pages@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          charts_dir: charts
+          charts_dir: chartrepo
