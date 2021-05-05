@@ -12,10 +12,10 @@ jobs:
         uses: stefanprodan/helm-gh-pages@master
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
-          charts_dir: chartrepo
+          charts_dir: chartrepo/test
           charts_url: https://github.com
           owner: selcukcavus
-          repository: chartrepo
+          repository: chartrepo/test
           branch: master
           target_dir: helmpublic
           commit_username: selcukcavus
