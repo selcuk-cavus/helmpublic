@@ -11,7 +11,7 @@ jobs:
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@master
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: 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
           charts_dir: chartrepo/test
           charts_url: https://github.com
           owner: selcukcavus
