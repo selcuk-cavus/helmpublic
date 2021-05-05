@@ -11,7 +11,12 @@ jobs:
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
           charts_dir: chartrepo
-          linting: on
-          charts_url: https://charts.selcuk.io
+          charts_url: https://github.com
+          owner: selcukcavus
+          repository: chartrepo
+          branch: master
+          target_dir: helmpublic
+          commit_username: selcukcavus
+          commit_email: selcuk@cloudnesil.com
