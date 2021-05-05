@@ -12,5 +12,5 @@ jobs:
         uses: stefanprodan/helm-gh-pages@master
         with:
           token: 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
-          charts_dir: chartrepo
+          charts_dir: charts
 
